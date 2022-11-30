@@ -1,0 +1,302 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://AContet.github.io/AC/manifests/ACmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "mashup Deux-Sèvres",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "fr"
+  }, {
+    "@value" : "invention AC"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "AC",
+  "sequences" : [ {
+    "@id" : "http://f0f72531-ad2f-4011-a570-5ebeb214e6ac",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/canvas/0/2",
+      "@type" : "sc:Canvas",
+      "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres.",
+      "width" : 2541,
+      "height" : 2541,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0002.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0002.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/daogrp/0/2",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0002.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0002.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0002.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0002.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 2499,
+          "height" : 2499
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/canvas/0/2"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD079_6M_00464_0002",
+        "strImageDir" : "images/FRAD079/M/6M/FRAD079_6M_00464",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "32957",
+        "ark" : "/ark:/58825/vta698e1b143c6be7cb",
+        "unitid" : "6 M 464",
+        "eadid" : "FRAD079_MOULINS"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0002.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/manifest",
+        "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres. ",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/canvas/0/4",
+      "@type" : "sc:Canvas",
+      "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres.",
+      "width" : 2541,
+      "height" : 2541,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/daogrp/0/4",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0004.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 2499,
+          "height" : 2499
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/canvas/0/4"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD079_6M_00464_0004",
+        "strImageDir" : "images/FRAD079/M/6M/FRAD079_6M_00464",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "32957",
+        "ark" : "/ark:/58825/vta698e1b143c6be7cb",
+        "unitid" : "6 M 464",
+        "eadid" : "FRAD079_MOULINS"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0004.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/manifest",
+        "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres. ",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/canvas/0/1",
+      "@type" : "sc:Canvas",
+      "label" : "Section G dite de Saint André",
+      "width" : 7367,
+      "height" : 7367,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/dao/0/1",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD079/P/3P/FRAD079_3P_0204/FRAD079_3P_0204_00008_0001.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 7367,
+          "height" : 7367
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/canvas/0/1"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoIsIndexable" : true,
+      "ligeoIndexautovalidate" : true,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD079_3P_0204_00008_0001",
+        "strImageDir" : "images/FRAD079/P/3P/FRAD079_3P_0204",
+        "curTag" : "dao",
+        "curTagnum" : 0,
+        "notice_id" : "231567",
+        "ark" : "/ark:/58825/vta52e356af8043a99d",
+        "unitid" : "3 P 204/8",
+        "eadid" : "FRAD079_CADASTRE_NAPOLEONIEN"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD079/P/3P/FRAD079_3P_0204/FRAD079_3P_0204_00008_0001.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/manifest",
+        "label" : "FRAD079_CADASTRE_NAPOLEONIEN Section G dite de Saint André ",
+        "format" : ""
+      },
+      "metadata" : [ {
+        "label" : "plan",
+        "value" : "1"
+      } ]
+    }, {
+      "@id" : "http://9a8bc88c-3ce6-4649-8583-2c0e548a4340",
+      "@type" : "sc:Canvas",
+      "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres.",
+      "width" : 2541,
+      "height" : 2541,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/daogrp/0/4",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FM%2F6M%2FFRAD079_6M_00464%2FFRAD079_6M_00464_0004.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0004.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 2499,
+          "height" : 2499
+        },
+        "on" : "http://9a8bc88c-3ce6-4649-8583-2c0e548a4340"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD079_6M_00464_0004",
+        "strImageDir" : "images/FRAD079/M/6M/FRAD079_6M_00464",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "32957",
+        "ark" : "/ark:/58825/vta698e1b143c6be7cb",
+        "unitid" : "6 M 464",
+        "eadid" : "FRAD079_MOULINS"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD079/M/6M/FRAD079_6M_00464/FRAD079_6M_00464_0004.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta698e1b143c6be7cb/manifest",
+        "label" : "État des moulins à farine en activité en 1809 dans les Deux-Sèvres. ",
+        "format" : ""
+      }
+    }, {
+      "@id" : "http://793bda4c-6e79-4a77-ade2-6af68ff191d3",
+      "@type" : "sc:Canvas",
+      "label" : "Section G dite de Saint André",
+      "width" : 7367,
+      "height" : 7367,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/dao/0/1",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD079%2FP%2F3P%2FFRAD079_3P_0204%2FFRAD079_3P_0204_00008_0001.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD079/P/3P/FRAD079_3P_0204/FRAD079_3P_0204_00008_0001.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 7367,
+          "height" : 7367
+        },
+        "on" : "http://793bda4c-6e79-4a77-ade2-6af68ff191d3"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoIsIndexable" : true,
+      "ligeoIndexautovalidate" : true,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD079_3P_0204_00008_0001",
+        "strImageDir" : "images/FRAD079/P/3P/FRAD079_3P_0204",
+        "curTag" : "dao",
+        "curTagnum" : 0,
+        "notice_id" : "231567",
+        "ark" : "/ark:/58825/vta52e356af8043a99d",
+        "unitid" : "3 P 204/8",
+        "eadid" : "FRAD079_CADASTRE_NAPOLEONIEN"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD079/P/3P/FRAD079_3P_0204/FRAD079_3P_0204_00008_0001.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/58825/vta52e356af8043a99d/manifest",
+        "label" : "FRAD079_CADASTRE_NAPOLEONIEN Section G dite de Saint André ",
+        "format" : ""
+      },
+      "metadata" : [ {
+        "label" : "plan",
+        "value" : "2"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
